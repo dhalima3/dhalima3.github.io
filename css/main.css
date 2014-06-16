@@ -38,3 +38,10 @@
 	top: 150px; 
 	width: 100%; 
 }
+
+#section-header{
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+	line-height: 40px;
+}
