@@ -45,3 +45,36 @@
 	padding-bottom: 10px;
 	line-height: 40px;
 }
+
+/* WORK EXPERIENCE */
+.work{
+	background: #FFFFFF;
+	text-align: center;
+}
+
+.experience {
+
+}
+
+.experience-1 {
+	background-image: url('..img/homedepot.png');
+}
+
+.experience-2 {
+	background-image: url('..img/sap.png');
+}
+
+.experience-3 {
+	background-image: url('..img/att.jpg');
+}
+
+.experience-4 {
+	background-image: url('..img/gtri.png');
+}
+
+.experience-5 {
+	background-image: url('..img/airwatch.png');
+}
+
+
+
