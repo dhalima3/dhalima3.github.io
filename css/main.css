@@ -1,5 +1,6 @@
 #home{
-	background: url('../img/atlanta.jpg') 50% 0 repeat fixed; min-height: 1000px;
+	background: url('../img/atlanta.jpg') 50% 0 no-repeat; min-height: 1000px;
+	background-size: cover;
 	height:1000px;
 	margin: 0 auto; 
 	width: 100%; 
@@ -20,6 +21,7 @@
  
 #about { 
 	background: url('../img/croatia.jpg') 50% 0 no-repeat; min-height: 1000px;  
+	background-size: cover;
 	height: 1000px; 
 	margin: 0 auto; 
 	width: 100%; 
