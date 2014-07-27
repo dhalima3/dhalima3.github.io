@@ -24,7 +24,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>    
   </head>
   <header>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- START OF NAVBAR -->
+    <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -71,7 +72,7 @@
   
   <body>
 
-    <section id="home">
+    <section id="home" data-type="background" data-speed="10">
       <div class="container">
         <h1 class="name"> DARYL HALIMA </h1>
       </div> <!--CONTAINER END-->
@@ -79,7 +80,7 @@
 
     <section id="about" data-type="background" data-speed="10">
       <article>This is when I went to Europe</article>
-    </section>
+    </section> <!-- ABOUT END -->
 
     <!--WORK EXPERIENCE SECTION -->
     <section class="work" id="work" data-type="background" data-speed="10">
@@ -138,5 +139,13 @@
      new WOW().init();
     </script>    
 
+    <!-- Skrollr Javascript  -->
+    <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
+    <!-- MAIN JAVASCRIPT -->
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
