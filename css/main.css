@@ -42,7 +42,7 @@ header {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	transition-duration:0.7s;
+	transition-duration:0.5s;
 	color:#000;
 	border-left:4px solid #000;
 }
@@ -53,18 +53,19 @@ header {
 	border:none;
 	height:78px;
 	padding-top:3px;
-	overflow:hidden;
 }
 
 /*HOME SECTION*/
 #home{
-	background: url('../img/atlanta.jpg') 50% 0 no-repeat; min-height: 1000px;
+	background-image: url('../img/atlanta.jpg');
 	background-size: cover;
+	background-position: center;
 	height:1000px;
-	margin: 0 auto; 
 	width: 100%; 
+	margin: 0 auto; 
 	max-width: 1920px; 
 	position: relative; 
+
 }
 
 #home article { 
@@ -80,12 +81,12 @@ header {
 .name{
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: 15%;
+	margin-top: 25%;
 }
 
 /*ABOUT SECTION*/ 
 #about { 
-	background: url('../img/croatia.jpg') 50% 0 no-repeat; min-height: 1000px;  
+	background: #fff;  
 	background-size: cover;
 	height: 1000px; 
 	margin: 0 auto; 
