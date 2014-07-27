@@ -9,7 +9,7 @@ header {
     position: relative;
     display: none;
     width: 100%;
-    height: 20%;
+    height: 25%;
 }
 
 .navbar-default{
@@ -17,7 +17,7 @@ header {
 	background-color:#3498db;
 	border: none;
 	height: 78px;
-	/*padding-top: 3px;*/
+	padding-top: 3px;
 	/*border-bottom:8px inset #333;
 	border-bottom:8px solid rgba(0,0,0,0.1);*/
 }
@@ -29,7 +29,7 @@ header {
 }
 
 .navbar-pic{
-	padding: 7px 0 0 0;
+	padding: 8px 0 0 0;
 	width: 50px;
 }
 
@@ -39,6 +39,21 @@ header {
 	margin-top:6px;
 	font-size:18px;
 	border-left:4px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	transition-duration:0.7s;
+	color:#000;
+	border-left:4px solid #000;
+}
+
+.navbar-collapse {
+	margin:0;
+	background-color:#3498db;
+	border:none;
+	height:78px;
+	padding-top:3px;
+	overflow:hidden;
 }
 
 /*HOME SECTION*/
