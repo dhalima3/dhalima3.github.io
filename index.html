@@ -13,6 +13,9 @@
     <!-- WOW CSS library-->
     <link rel="stylesheet" href="css/animate.css">
 
+    <!-- FLEXSLIDER CSS -->
+    <link rel="stylesheet" href="css/flexslider.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,13 +55,100 @@
 
     <section id="home" class="slider">
       <div class="container">
-        <h1 class="name"> DARYL HALIMA </h1>
+        <h1 id="name"> DARYL HALIMA </h1>
+
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <h1 id="positions"> Student </h1>
+            </li>
+            <li>
+              <h1 id="positions"> Hacker </h1>
+            </li>
+            <li>
+              <h1 id="positions"> Developer </h1>
+            </li>
+          </ul>
+        </div>
       </div> <!--CONTAINER END-->
     </section> <!-- HOME END -->
 
-    <section id="about">
+    <!-- <section id="about">
       <article>This is when I went to Europe</article>
-    </section> <!-- ABOUT END -->
+    </section> -->
+
+    <section id="skills">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2> Skillset</h2>
+        </div>
+
+        <div class="row" style="margin:0">
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Java</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Python</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Javascript</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>PHP</h4>              
+            </span>
+          </div>
+
+      </div>
+
+        <div class="row">
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Java</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Python</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>Javascript</h4>              
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="chart" data-percent="85">
+              <span class="percent"></span>
+              <h4>PHP</h4>              
+            </span>
+          </div>
+
+      </div>      
+    </section><!-- SKILLS END -->
 
     <!--WORK EXPERIENCE SECTION -->
     <section class="work" id="work" data-type="background" data-speed="10">
@@ -67,7 +157,7 @@
 
         <div class="section-header">
           <h2> Work Experience</h2>
-          <h6> Here are the past companies that I've had the privilige of working for in the past.  </h6>
+          <h5> Here are the past companies that I've had the privilige of working for in the past.  </h5>
         </div>
 
       <div class="row">
@@ -117,7 +207,18 @@
      new WOW().init();
     </script>    
 
+    <!-- FLEXSLIDER JAVASCRIPT -->
+    <script src="js/jquery.flexslider-min.js"></script>
+
+    <!-- EASY PIE CHART JAVASCRIPT -->
+    <script src="js/easypiechart.js"></script>
+    
+    <!-- EASING JAVASCRIPT -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
     <!-- MAIN JAVASCRIPT -->
     <script type="text/javascript" src="js/main.js"></script>
+
+
   </body>
 </html>
