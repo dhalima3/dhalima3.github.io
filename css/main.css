@@ -16,7 +16,12 @@ h2 {
 }
 
 h3 {
-	font-size: 4.0vh;
+	font-size: 7.0vh;
+	font-family: 'Montserrat';
+}
+
+.nav-text {
+	font-size: 7.0vh;
 	font-family: 'Montserrat';
 }
 
@@ -106,6 +111,38 @@ header {
 .home-text{
 	text-align: center;
 	color: #FFFFFF;
+}
+
+#sliding-navigation{
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+#sliding-navigation ul{
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+}
+
+#sliding-navigation li{
+    position: relative;
+    float: left;
+    /*TODO Change right percentage*/
+    right: 57%;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#sliding-navigation a{
+    display: block;
+}
+
+#sliding-navigation a:hover{
+    color: red;
 }
 
 #positions{
