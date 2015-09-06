@@ -82,6 +82,20 @@ h3 {
     width: 100%;
 }
 
+.nav-menu li {
+    list-style: none;
+    display:inline;
+    text-align: center;
+}
+
+.nav-menu li:before {
+    content: "| ";
+}
+
+.nav-menu li:first-child:before {
+    content: '';
+}
+
 /*Override Bootstrap values for a:hover*/
 .nav-menu a:hover{
 	color: #DEA63C;
@@ -93,14 +107,34 @@ nav {
   font-size: 18px;
   display: block;
 }
-@media screen and (max-width: 640px) {
-  nav {
-    float: none;
-    margin-top: 9px;
+
+@media screen and (max-width: 1000px) {
+  .nav-menu li {
     display: block;
-    font-size: 16px;
+  }
+
+  .nav-menu li:before {
+    content: '';
+  }
+
+  h2 {
+      font-size: 9.0vw;
+      font-family: 'Montserrat';
+  }
+
+  h3 {
+      font-size: 7.0vw;
+      font-family: 'Montserrat';
+  }
+
+  .nav-text {
+      font-size: 7.0vw;
+      font-family: 'Montserrat';
+      text-align: center;
+      color: #FFFFFF;
   }
 }
+
 nav a {
   margin: 0px 5px;
   color: #121313;
