@@ -102,6 +102,11 @@ h3 {
     text-decoration: none;
 }
 
+.footer a:hover{
+	color: #DEA63C;
+    text-decoration: none;
+}
+
 nav {
   margin: 10px 0px 10px 0px;
   font-size: 18px;
@@ -118,17 +123,17 @@ nav {
   }
 
   h2 {
-      font-size: 9.0vw;
+      font-size: 8.0vw;
       font-family: 'Montserrat';
   }
 
   h3 {
-      font-size: 7.0vw;
+      font-size: 6.0vw;
       font-family: 'Montserrat';
   }
 
   .nav-text {
-      font-size: 7.0vw;
+      font-size: 6.0vw;
       font-family: 'Montserrat';
       text-align: center;
       color: #FFFFFF;
