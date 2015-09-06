@@ -11,18 +11,20 @@ body {
 
 /*FONT SIZES*/
 h2 {
-	font-size: 7.0vh;
+	font-size: 5.0vw;
 	font-family: 'Montserrat';
 }
 
 h3 {
-	font-size: 7.0vh;
+	font-size: 3.0vw;
 	font-family: 'Montserrat';
 }
 
 .nav-text {
-	font-size: 7.0vh;
+	font-size: 3.0vw;
 	font-family: 'Montserrat';
+	text-align: center;
+	color: #FFFFFF;
 }
 
 /*NAVBAR*/
@@ -113,11 +115,79 @@ header {
 	color: #FFFFFF;
 }
 
+.divider-text{
+    padding-left: .438em;
+    padding-right: .438em;
+}
+
 #positions{
 	text-align: center;
 	color: #FFFFFF;
 }
 
+.nav-menu{
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: inline;
+    left: 0vw;
+    text-align: center;
+}
+
+.nav-menu li{
+    position: relative;
+    float: left;
+    /*TODO Change right percentage or delete*/
+    right: 1vw;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+/*Override Bootstrap values for a:hover*/
+.nav-menu a:hover{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.hvr-icon-forward:before {
+    content: "\f138";
+    position: absolute;
+    right: 1em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    transform: translateZ(0);
+    transition-duration: 0.1s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
 /*ABOUT SECTION*/ 
 #about { 
 	background: #fff;  
