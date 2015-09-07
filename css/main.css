@@ -113,7 +113,7 @@ nav {
   display: block;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px; min-height: 500px) {
   .nav-menu li {
     display: block;
   }
@@ -123,17 +123,17 @@ nav {
   }
 
   h2 {
-      font-size: 8.0vw;
+      font-size: 7.0vw;
       font-family: 'Montserrat';
   }
 
   h3 {
-      font-size: 6.0vw;
+      font-size: 5.0vw;
       font-family: 'Montserrat';
   }
 
   .nav-text {
-      font-size: 6.0vw;
+      font-size: 5.0vw;
       font-family: 'Montserrat';
       text-align: center;
       color: #FFFFFF;
