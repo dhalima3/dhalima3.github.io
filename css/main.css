@@ -33,7 +33,7 @@ h3 {
 
 .about-text {
 	color: #FFFFFF;
-    font-size: 3.0vw;
+    font-size: 2.0vw;
 	font-family: 'Montserrat';
 }
 
@@ -204,4 +204,18 @@ nav a {
 .entry {
     text-align: center;
     padding: 1% 5%;
+}
+
+@media screen and (max-width: 850px) {
+
+  .header-nav-text {
+      font-size: 4.5vw;
+      font-family: 'Montserrat';
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+  .about-text {
+        font-size: 3.8vw;
+    }
 }
