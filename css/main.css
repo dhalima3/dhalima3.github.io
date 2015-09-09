@@ -28,7 +28,13 @@ h3 {
 }
 
 .header-nav-text {
-    font-size: 1.2vw;
+    font-size: 3.0vw;
+}
+
+.about-text {
+	color: #FFFFFF;
+    font-size: 150%;
+	font-family: 'Montserrat';
 }
 
 /*HOME SECTION*/
@@ -54,7 +60,7 @@ h3 {
 }
 
 .header-profile-pic{
-    width:10%;
+    width:15%;
 }
 
 .img-circular{
@@ -121,33 +127,6 @@ nav {
   display: block;
 }
 
-@media screen and (max-width: 775px) {
-  .nav-menu li {
-    display: block;
-  }
-
-  .nav-menu li:before {
-    content: '';
-  }
-
-  h2 {
-      font-size: 8.0vw;
-      font-family: 'Montserrat';
-  }
-
-  h3 {
-      font-size: 6.0vw;
-      font-family: 'Montserrat';
-  }
-
-  .nav-text {
-      font-size: 6.0vw;
-      font-family: 'Montserrat';
-      text-align: center;
-      color: #FFFFFF;
-  }
-}
-
 nav a {
   margin: 0px 5px;
   color: #121313;
@@ -197,22 +176,32 @@ nav a {
   animation-iteration-count: 1;
 }
 /*ABOUT SECTION*/ 
-#about { 
-	background: #fff;  
-	background-size: cover;
-	height: 100%; 
-	width: 100%; 
-	margin: 0 auto; 
-	max-width: 1920px; 
-	position: relative; 
-}
+/*#about { */
+	/*background: #fff;  */
+	/*background-size: cover;*/
+	/*height: 100%; */
+	/*width: 100%; */
+	/*margin: 0 auto; */
+	/*max-width: 1920px; */
+	/*position: relative; */
+/*}*/
 
 #about article { 
-	font-size: 63px;
+    font-size: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 	color: white;
 	height: 458px; 
 	position: absolute; 
 	text-align: center; 
 	top: 150px; 
 	width: 100%; 
+}
+
+.entry {
+    text-align: center;
+    padding: 1% 5%;
 }
