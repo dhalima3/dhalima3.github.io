@@ -27,6 +27,11 @@ h3 {
 	color: #FFFFFF;
 }
 
+.nav-text a {
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
 .header-nav-text {
     font-size: 3.0vw;
 }
@@ -206,6 +211,7 @@ nav a {
     padding: 1% 5%;
 }
 
+/*Refactor this into separate about.css file*/
 @media screen and (max-width: 850px) {
 
   .header-nav-text {
